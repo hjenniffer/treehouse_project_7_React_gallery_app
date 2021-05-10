@@ -6,7 +6,7 @@ const PhotoGallery= (props) => {
 
   const photoData = props.retrievePhotoData(photoTopic);
 
-  // data doesn't exist yet so display loading to user
+  // show loading when data is being retrived
   if (!photoData) {
     return (
       <h4>Loading....</h4>
