@@ -28,7 +28,7 @@ class App extends Component {
      
         const returnedPhotoData = response.data.photos.photo.reduce((data, photo) => {
           const photoLink = `https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`
-          data.push(<li key={photo.id}><img src={photoLink} /></li>);
+          data.push(<li key={photo.id}><img src={photoLink} alt="featured pic"/></li>);
           return data;
         }, []);
         return returnedPhotoData;
@@ -78,5 +78,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;

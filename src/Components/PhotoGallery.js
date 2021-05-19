@@ -14,12 +14,14 @@ const PhotoGallery= (props) => {
   // if at least 1 photo returned display it
   } else if (photoData.length > 0) {
     return (
+      <div className='container'>
       <div className='photo-container'>
-        <h3>{`Found some pictures of ${photoTopic}.`}</h3>
+        <h3>{`Found some pictures of ${photoTopic}`}</h3>
         <h4>Click a photo category above, or search for something!</h4>
         <ul>
           {photoData}
         </ul>
+      </div>
       </div>
     );
   // no results to display
