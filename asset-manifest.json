@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/treehouse_project_7_React_gallery_app/static/css/main.c9096f8a.chunk.css",
-    "main.js": "/treehouse_project_7_React_gallery_app/static/js/main.52cb9155.chunk.js",
-    "main.js.map": "/treehouse_project_7_React_gallery_app/static/js/main.52cb9155.chunk.js.map",
+    "main.js": "/treehouse_project_7_React_gallery_app/static/js/main.64a687b7.chunk.js",
+    "main.js.map": "/treehouse_project_7_React_gallery_app/static/js/main.64a687b7.chunk.js.map",
     "runtime-main.js": "/treehouse_project_7_React_gallery_app/static/js/runtime-main.c62b9eb1.js",
     "runtime-main.js.map": "/treehouse_project_7_React_gallery_app/static/js/runtime-main.c62b9eb1.js.map",
     "static/js/2.87190bb4.chunk.js": "/treehouse_project_7_React_gallery_app/static/js/2.87190bb4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c62b9eb1.js",
     "static/js/2.87190bb4.chunk.js",
     "static/css/main.c9096f8a.chunk.css",
-    "static/js/main.52cb9155.chunk.js"
+    "static/js/main.64a687b7.chunk.js"
   ]
 }
